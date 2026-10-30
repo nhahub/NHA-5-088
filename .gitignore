@@ -1,0 +1,53 @@
+# Data (the BTS files are ~540 MB; never commit raw or processed data)
+data/*
+!data/README.md
+*.csv
+*.parquet
+*.zip
+*.xls
+*.xlsx
+*.db
+
+# Delta Lake / Spark output
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Airflow
+airflow/logs/
+logs/
+*.log
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Power BI temporary files
+~$*
+*.pbix.bak
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -43,3 +43,25 @@ Capstone project for the **Digital Egypt Pioneers Initiative (DEPI), Round 5**, 
 * **Warehouse:** PostgreSQL star schema
 * **Consumers:** Power BI dashboard, delay-prediction model (LightGBM, FastAPI), GenAI question-answering assistant
 * **Deployment:** Docker Compose and GitHub Actions
+
+---
+
+## Repository Structure
+
+| Folder | Content | Owner |
+|---|---|---|
+| [`ingestion/`](ingestion/) | BTS download, Airflow DAGs, Bronze layer | Asmaa Adel Ali |
+| [`spark/`](spark/) | PySpark cleaning, Silver layer, data-quality checks | Mosaab Mohamed Mohamed |
+| [`warehouse/`](warehouse/) | Star schema, Gold layer, PostgreSQL views | Nepal Adel Ali |
+| [`dashboard/`](dashboard/) | Power BI report | Nepal Adel Ali |
+| [`ml/`](ml/) | Delay-prediction model and API | Omar Emad Hamdy |
+| [`assistant/`](assistant/) | GenAI question-answering assistant | Abdelrahman Mahmoud Mohamed |
+| [`tests/`](tests/) | Automated tests | All members |
+| [`docs/`](docs/) | Project documents for each DEPI phase | All members |
+| [`data/`](data/) | Local data folder, not committed | — |
+
+---
+
+## Contributing
+
+Every change goes through a branch and a pull request reviewed by another team member. Branch names, commit messages and pull-request rules are in [CONTRIBUTING.md](CONTRIBUTING.md).
