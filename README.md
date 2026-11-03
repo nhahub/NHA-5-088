@@ -24,6 +24,7 @@ Capstone project for the **Digital Egypt Pioneers Initiative (DEPI), Round 5**, 
 | 1. Project Planning & Management | [FlightLens_Project_Proposal.pdf](docs/01_project_planning/FlightLens_Project_Proposal.pdf) |
 | 2. Literature Review | [FlightLens_Literature_Review.pdf](docs/02_literature_review/FlightLens_Literature_Review.pdf) |
 | 3. Requirements Gathering | [FlightLens_Requirements_Specification.pdf](docs/03_requirements/FlightLens_Requirements_Specification.pdf) |
+| 4. System Analysis & Design | [FlightLens_System_Analysis_Design.pdf](docs/04_analysis_design/FlightLens_System_Analysis_Design.pdf) |
 
 ---
 
